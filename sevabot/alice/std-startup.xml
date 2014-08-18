@@ -1,0 +1,16 @@
+<aiml version="1.0">
+
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>standard/std-*.aiml</learn>
+<!--<learn>standard/hangman.aiml</learn>-->
+<learn>standard/yomama.aiml</learn>
+<learn>standard/zbert.aiml</learn>
+</template>
+</category>
+
+</aiml>
